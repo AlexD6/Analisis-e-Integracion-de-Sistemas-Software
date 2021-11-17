@@ -1,0 +1,562 @@
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=orrin&type=artist&offset=0&limit=20",
+        "items": [{
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1E4jlqY2HEXKLT0YkNy3HL"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 3171
+                },
+                "genres": [
+                    "contemporary jazz",
+                    "modern jazz piano",
+                    "straight-ahead jazz"
+                ],
+                "href": "https://api.spotify.com/v1/artists/1E4jlqY2HEXKLT0YkNy3HL",
+                "id": "1E4jlqY2HEXKLT0YkNy3HL",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273a8e7a6664883191408d08913",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02a8e7a6664883191408d08913",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851a8e7a6664883191408d08913",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Evans",
+                "popularity": 31,
+                "type": "artist",
+                "uri": "spotify:artist:1E4jlqY2HEXKLT0YkNy3HL"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/57MSCk9ocHFyzO9phFgPt0"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 2161
+                },
+                "genres": [
+                    "afrofuturism"
+                ],
+                "href": "https://api.spotify.com/v1/artists/57MSCk9ocHFyzO9phFgPt0",
+                "id": "57MSCk9ocHFyzO9phFgPt0",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/a43b521ab9fbf0f4c88aafdb8d2b1849500e722e",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/b609ccab9c89503cc29b8d1ab4bb912a7dbb4954",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/c07c47b9b04a97bf17c2b2b53e8f49911bfb098c",
+                        "width": 160
+                    }
+                ],
+                "name": "Orrin",
+                "popularity": 36,
+                "type": "artist",
+                "uri": "spotify:artist:57MSCk9ocHFyzO9phFgPt0"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/00LhlE1AWV16oHX3YwNwQJ"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 23
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/00LhlE1AWV16oHX3YwNwQJ",
+                "id": "00LhlE1AWV16oHX3YwNwQJ",
+                "images": [{
+                        "height": 669,
+                        "url": "https://i.scdn.co/image/9ac6d198565813f217ef6ae116f7eee5ce5b67ef",
+                        "width": 1000
+                    },
+                    {
+                        "height": 428,
+                        "url": "https://i.scdn.co/image/c597d97f26ec86f84b1c99baa0ade78c8f9aa46d",
+                        "width": 640
+                    },
+                    {
+                        "height": 134,
+                        "url": "https://i.scdn.co/image/66d7744aa791b7edfd287156c3c78f2e4498984c",
+                        "width": 200
+                    },
+                    {
+                        "height": 43,
+                        "url": "https://i.scdn.co/image/f219d16d5905e011caacec0b33400aadfe69ccac",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Keepnews",
+                "popularity": 13,
+                "type": "artist",
+                "uri": "spotify:artist:00LhlE1AWV16oHX3YwNwQJ"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3XggIywBjPYXXnuZ6x93nh"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 46
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/3XggIywBjPYXXnuZ6x93nh",
+                "id": "3XggIywBjPYXXnuZ6x93nh",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/27e749734d971a2c81d57037aeae65a2c3517594",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/15a08a493b71933ee74d46f30496c5763cab1044",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/303bf89a1916306750ab0b24b6abae6ae025e558",
+                        "width": 160
+                    }
+                ],
+                "name": "orrin",
+                "popularity": 11,
+                "type": "artist",
+                "uri": "spotify:artist:3XggIywBjPYXXnuZ6x93nh"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7CWTd4Zg6Gf9LldbQQjhzU"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 373
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/7CWTd4Zg6Gf9LldbQQjhzU",
+                "id": "7CWTd4Zg6Gf9LldbQQjhzU",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732418da902e2b6741f1ff10d8",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e022418da902e2b6741f1ff10d8",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048512418da902e2b6741f1ff10d8",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin King",
+                "popularity": 21,
+                "type": "artist",
+                "uri": "spotify:artist:7CWTd4Zg6Gf9LldbQQjhzU"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4JEQHL9mfMdmT1tKXXq4vV"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 74
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/4JEQHL9mfMdmT1tKXXq4vV",
+                "id": "4JEQHL9mfMdmT1tKXXq4vV",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273ab052b4281d62daf6332fdaa",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02ab052b4281d62daf6332fdaa",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851ab052b4281d62daf6332fdaa",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Tucker",
+                "popularity": 11,
+                "type": "artist",
+                "uri": "spotify:artist:4JEQHL9mfMdmT1tKXXq4vV"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/19C4payDTN1kbWAkaUE1lR"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 5
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/19C4payDTN1kbWAkaUE1lR",
+                "id": "19C4payDTN1kbWAkaUE1lR",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27346bb6a30d5e582eae439cb75",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0246bb6a30d5e582eae439cb75",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485146bb6a30d5e582eae439cb75",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:19C4payDTN1kbWAkaUE1lR"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7xaHyQSbA1EPQs4ELBLN2h"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 9
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/7xaHyQSbA1EPQs4ELBLN2h",
+                "id": "7xaHyQSbA1EPQs4ELBLN2h",
+                "images": [],
+                "name": "Orrin Evans, piano",
+                "popularity": 4,
+                "type": "artist",
+                "uri": "spotify:artist:7xaHyQSbA1EPQs4ELBLN2h"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1ghclLP6zfXrh7MNg52IOw"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 15
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1ghclLP6zfXrh7MNg52IOw",
+                "id": "1ghclLP6zfXrh7MNg52IOw",
+                "images": [],
+                "name": "Orrin Evans Octet",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:1ghclLP6zfXrh7MNg52IOw"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1yOokkya1ahNHDOpsLZmTF"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 1
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1yOokkya1ahNHDOpsLZmTF",
+                "id": "1yOokkya1ahNHDOpsLZmTF",
+                "images": [],
+                "name": "Orrin",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:1yOokkya1ahNHDOpsLZmTF"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0LeVjbJ889LzB1lQXWmw3T"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 17
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/0LeVjbJ889LzB1lQXWmw3T",
+                "id": "0LeVjbJ889LzB1lQXWmw3T",
+                "images": [{
+                        "height": 1209,
+                        "url": "https://i.scdn.co/image/af5ebd73b431327f2c71d0a17b398f252ccda337",
+                        "width": 956
+                    },
+                    {
+                        "height": 809,
+                        "url": "https://i.scdn.co/image/00d1e1168a3657d54629ca1fc7b8a55c78d2aecf",
+                        "width": 640
+                    },
+                    {
+                        "height": 253,
+                        "url": "https://i.scdn.co/image/32a31f648051a603bb00ec28c7446b19fafa4e7f",
+                        "width": 200
+                    },
+                    {
+                        "height": 81,
+                        "url": "https://i.scdn.co/image/734f220f3b330f2e89d10086f43c30c5c530dd5e",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Star",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:0LeVjbJ889LzB1lQXWmw3T"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/017aUAVKJg8z0QN90rvZYI"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 7
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/017aUAVKJg8z0QN90rvZYI",
+                "id": "017aUAVKJg8z0QN90rvZYI",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2737829e2b62c8587ac3c4de3ac",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e027829e2b62c8587ac3c4de3ac",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048517829e2b62c8587ac3c4de3ac",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Howard",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:017aUAVKJg8z0QN90rvZYI"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1Ktl9b0i8xQ2GBOmqVESun"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 3
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1Ktl9b0i8xQ2GBOmqVESun",
+                "id": "1Ktl9b0i8xQ2GBOmqVESun",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273629448507d46404f2bcc90a7",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02629448507d46404f2bcc90a7",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851629448507d46404f2bcc90a7",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Tucker & His Orchestra",
+                "popularity": 3,
+                "type": "artist",
+                "uri": "spotify:artist:1Ktl9b0i8xQ2GBOmqVESun"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2iDdMIStH0GRIy34nCD6Te"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 2
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2iDdMIStH0GRIy34nCD6Te",
+                "id": "2iDdMIStH0GRIy34nCD6Te",
+                "images": [],
+                "name": "Orrin Starr",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:2iDdMIStH0GRIy34nCD6Te"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7ckHdVQC6l7DzhMOg7hOt1"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 7
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/7ckHdVQC6l7DzhMOg7hOt1",
+                "id": "7ckHdVQC6l7DzhMOg7hOt1",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2733b8d8cf70fa41bed09b8d3f7",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e023b8d8cf70fa41bed09b8d3f7",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048513b8d8cf70fa41bed09b8d3f7",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Chase",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:7ckHdVQC6l7DzhMOg7hOt1"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1RdJzGntJhKUWZErhnqcEE"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 23
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1RdJzGntJhKUWZErhnqcEE",
+                "id": "1RdJzGntJhKUWZErhnqcEE",
+                "images": [],
+                "name": "Orrin Hatch",
+                "popularity": 3,
+                "type": "artist",
+                "uri": "spotify:artist:1RdJzGntJhKUWZErhnqcEE"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0737gFLvK4z7qG77Q2hSEV"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 3
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/0737gFLvK4z7qG77Q2hSEV",
+                "id": "0737gFLvK4z7qG77Q2hSEV",
+                "images": [],
+                "name": "Orrin",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:0737gFLvK4z7qG77Q2hSEV"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3ExAgU89wZYeCXNcKOqQp0"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 3
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/3ExAgU89wZYeCXNcKOqQp0",
+                "id": "3ExAgU89wZYeCXNcKOqQp0",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2731efa4543aac07083de4b75b7",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e021efa4543aac07083de4b75b7",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048511efa4543aac07083de4b75b7",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin K. Loftin",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:3ExAgU89wZYeCXNcKOqQp0"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2Zsg7M3uHLfwLoRuJFdRxN"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 9
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2Zsg7M3uHLfwLoRuJFdRxN",
+                "id": "2Zsg7M3uHLfwLoRuJFdRxN",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2737325dcc67b8d52ba3d227e65",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e027325dcc67b8d52ba3d227e65",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048517325dcc67b8d52ba3d227e65",
+                        "width": 64
+                    }
+                ],
+                "name": "Orrin Bolton",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:2Zsg7M3uHLfwLoRuJFdRxN"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6in5YvAawNBVTQY8iXAIml"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 0
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/6in5YvAawNBVTQY8iXAIml",
+                "id": "6in5YvAawNBVTQY8iXAIml",
+                "images": [],
+                "name": "Orrin",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:6in5YvAawNBVTQY8iXAIml"
+            }
+        ],
+        "limit": 20,
+        "next": "https://api.spotify.com/v1/search?query=orrin&type=artist&offset=20&limit=20",
+        "offset": 0,
+        "previous": null,
+        "total": 67
+    }
+}

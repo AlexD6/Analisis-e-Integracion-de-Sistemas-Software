@@ -1,0 +1,81 @@
+{
+    "tracks": {
+        "href": "https://api.spotify.com/v1/search?query=wachipaa&type=track&market=ES&offset=0&limit=20",
+        "items": [{
+            "album": {
+                "album_type": "album",
+                "artists": [{
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7ha2O24d2RixnRx9whTRuW"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7ha2O24d2RixnRx9whTRuW",
+                    "id": "7ha2O24d2RixnRx9whTRuW",
+                    "name": "Tu Papa",
+                    "type": "artist",
+                    "uri": "spotify:artist:7ha2O24d2RixnRx9whTRuW"
+                }],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2r2wv71q4y2L9wwlLKFEUP"
+                },
+                "href": "https://api.spotify.com/v1/albums/2r2wv71q4y2L9wwlLKFEUP",
+                "id": "2r2wv71q4y2L9wwlLKFEUP",
+                "images": [{
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2735285daf34e83766820ed680a",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e025285daf34e83766820ed680a",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048515285daf34e83766820ed680a",
+                        "width": 64
+                    }
+                ],
+                "name": "Tirar la Casa por la Ventana",
+                "release_date": "2014-10-22",
+                "release_date_precision": "day",
+                "total_tracks": 14,
+                "type": "album",
+                "uri": "spotify:album:2r2wv71q4y2L9wwlLKFEUP"
+            },
+            "artists": [{
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/7ha2O24d2RixnRx9whTRuW"
+                },
+                "href": "https://api.spotify.com/v1/artists/7ha2O24d2RixnRx9whTRuW",
+                "id": "7ha2O24d2RixnRx9whTRuW",
+                "name": "Tu Papa",
+                "type": "artist",
+                "uri": "spotify:artist:7ha2O24d2RixnRx9whTRuW"
+            }],
+            "disc_number": 1,
+            "duration_ms": 156969,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "ARG991018326"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/2NYrhsqTuHWZCKCh5lXujW"
+            },
+            "href": "https://api.spotify.com/v1/tracks/2NYrhsqTuHWZCKCh5lXujW",
+            "id": "2NYrhsqTuHWZCKCh5lXujW",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Wachinanga",
+            "popularity": 39,
+            "preview_url": "https://p.scdn.co/mp3-preview/eb1f9c2a5bbb7d08cbafb758a44ee938079ebaa2?cid=774b29d4f13844c495f206cafdad9c86",
+            "track_number": 14,
+            "type": "track",
+            "uri": "spotify:track:2NYrhsqTuHWZCKCh5lXujW"
+        }],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 1
+    }
+}
