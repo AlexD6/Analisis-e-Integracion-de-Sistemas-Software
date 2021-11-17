@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="css/styleSheet.css" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Buscador</title>
+</head>
+
+<body>
+	<div class="portada">
+		<img src="images/logo.png" alt="logo" width="350" height="280" />
+	</div>
+	<div class="buscar">
+		<img src="images/buscar.png" alt="buscar" width="350" height="70" />
+	</div>
+	<div class="spotifySearchDiv">
+		<form id="spotifySearchForm" action="SpotifySearchController"
+			method="post">
+			<input type="text" name="spotifySearchQuery" size="40" placeholder="Artista, álbum o canción" required /> <input
+				type="submit" name="spotifySearchBtn" title="Dale, que no pasa nada!" value="Buscar!">
+		</form>
+	</div>
+</body>
+
+</html>

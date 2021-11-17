@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+
+	<welcome-file-list>
+  		<welcome-file>index.html</welcome-file>
+ 	</welcome-file-list>
+   
+  
+    <servlet>
+        <servlet-name>MainPageController</servlet-name>
+        <servlet-class>aiss.controller.MainPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainPageController</servlet-name>
+        <url-pattern>/mainPage</url-pattern>
+    </servlet-mapping>
+  
+  
+
+  	<servlet>
+        <servlet-name>TrackPageController</servlet-name>
+        <servlet-class>aiss.controller.TrackPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrackPageController</servlet-name>
+        <url-pattern>/TrackPageController</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ArtistPageController</servlet-name>
+        <servlet-class>aiss.controller.ArtistPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArtistPageController</servlet-name>
+        <url-pattern>/ArtistPageController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AlbumPageController</servlet-name>
+        <servlet-class>aiss.controller.AlbumPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlbumPageController</servlet-name>
+        <url-pattern>/AlbumPageController</url-pattern>
+    </servlet-mapping>
+    
+
+
+  
+  	<servlet>
+        <servlet-name>SpotifyLibraryController</servlet-name>
+        <servlet-class>aiss.controller.SpotifyLibraryController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifyLibraryController</servlet-name>
+        <url-pattern>/SpotifyLibraryController</url-pattern>
+    </servlet-mapping>
+    
+  
+    
+    
+    
+  	<servlet>
+        <servlet-name>SpotifySearchController</servlet-name>
+        <servlet-class>aiss.controller.SpotifySearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifySearchController</servlet-name>
+        <url-pattern>/SpotifySearchController</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>SpotifyAddController</servlet-name>
+        <servlet-class>aiss.controller.SpotifyAddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifyAddController</servlet-name>
+        <url-pattern>/SpotifyAddController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SpotifyRemoveController</servlet-name>
+        <servlet-class>aiss.controller.SpotifyRemoveController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifyRemoveController</servlet-name>
+        <url-pattern>/SpotifyRemoveController</url-pattern>
+    </servlet-mapping>
+    
+  
+  <!-- All REST resources will be prefixed by /api  -->
+    <context-param>
+        <param-name>resteasy.servlet.mapping.prefix</param-name>
+        <param-value>/api</param-value>
+    </context-param>
+
+    <!-- Servlets -->
+    <servlet>
+        <servlet-name>Resteasy</servlet-name>
+        <servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>aiss.api.ValorAPI</param-value>
+        </init-param>
+    </servlet>
+
+    <!-- Servlet mappings -->
+    <!-- All calls to /api/xxx will be sent to the resteasy servlet -->
+    <servlet-mapping>
+        <servlet-name>Resteasy</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+  
+  <!-- SpotifyAuthController-->
+  <!-- (Inicio de sesión en Spotify)-->
+	<servlet>
+        <description/>
+        <servlet-name>SpotifyAuthController</servlet-name>
+        <servlet-class>aiss.controller.oauth.GenericAuthController</servlet-class>
+        <init-param>
+            <param-name>provider</param-name>
+            <param-value>Spotify</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifyAuthController</servlet-name>
+        <url-pattern>/AuthController/Spotify</url-pattern>
+    </servlet-mapping>
+    
+    <!--SpotifyOAuth2Callback-->
+    <!--()-->
+    <servlet>
+        <description/>
+        <servlet-name>SpotifyOAuth2Callback</servlet-name>
+        <servlet-class>aiss.controller.oauth.OAuth2Callback</servlet-class>
+        <init-param>
+            <param-name>provider</param-name>
+            <param-value>Spotify</param-value>
+        </init-param>
+        <init-param>
+            <param-name>onSuccess</param-name>
+            <param-value>redirect:/mainPage</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpotifyOAuth2Callback</servlet-name>
+        <url-pattern>/oauth2callback/Spotify</url-pattern> 
+    </servlet-mapping>
+    
+   
+  
+  
+</web-app>

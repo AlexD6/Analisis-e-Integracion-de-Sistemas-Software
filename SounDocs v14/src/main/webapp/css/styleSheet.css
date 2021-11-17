@@ -1,0 +1,331 @@
+body {
+	background-color: #182B4C;
+}
+
+
+/*index*/
+div.portada {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 75px;
+}
+
+div.nuestrAPI {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+/*main*/
+div.buscar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+div.spotifySearchDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+
+/*success*/
+div.resultadosImagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+div.tracks {
+	background-color: #12213b;
+	float: left;
+	margin-left: 50px;
+	width: 400px;
+	display: inline-block;
+}
+
+div.artists {
+	margin-left: 100px;
+	background-color: #12213b;
+	float: left;
+	width: 400px;
+	display: inline-block;
+}
+
+div.albums {
+	margin-left: 100px;
+	background-color: #12213b;
+	float: left;
+	width: 400px;
+	display: inline-block;
+}
+
+div.buscador{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #EE0000;
+}
+
+p.resultados{
+	color: #00B050;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+div.resultados{
+	padding-left: 20px;
+}
+
+a.resultados{
+	text-decoration: none;
+	color: white;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+
+/*Error*/
+div.errorImagen{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 75px;
+}
+
+div.errorTexto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+p.error{
+	color: white;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+
+/*Track*/
+@font-face{
+	font-family: "fuenteRotulos";
+	src: url("fuenteRotulos.ttf")
+}
+
+div.tituloCancion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -20px;
+}
+
+p.tituloCancion{
+	font-family: "fuenteRotulos";
+	color: white;
+	font-size: 350%;
+}
+
+div.datosGeneral {
+	background-color: #12213b;
+	float: left;
+	margin-left: 30px;
+	width: 250px;
+	display: inline-block;
+}
+
+div.tituloDatos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #EE0000;
+}
+
+p.tituloDatos{
+	color: #00B050;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+div.datosAbajo{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	}
+
+p.datosAbajo{
+	color: white;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+div.videoclip{
+	margin-left: 80px;
+	float: left;
+}
+
+div.lyricGeneral {
+	margin-left: 80px;
+	background-color: #12213b;
+	float: left;
+	width: 450px;
+	height: 500px;
+	display: inline-block;
+}
+
+div.lyricArriba{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #00B050;
+}
+
+p.lyricArriba{
+	color: #EE0000;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+div.lyricAbajo{
+	padding-left: 20px;
+	overflow: auto; 
+}
+
+p.lyricAbajo{
+	color: white;
+	font-family: Verdana;
+	font-size: 13px;
+	height: 414px;
+}
+
+div.Like {
+	display: block;
+	margin-top: 10px;
+}
+
+
+/*Artist*/
+div.tituloCancion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -20px;
+}
+
+p.tituloCancion{
+	font-family: "fuenteRotulos";
+	color: white;
+	font-size: 350%;
+}
+
+div.fotoArtista{
+	margin-left: 110px;
+	float: left;
+}
+
+div.artistSongs {
+	margin-left: 110px;
+	background-color: #12213b;
+	float: left;
+	width: 400px;
+	display: inline-block;
+}
+
+div.artistAlbum{
+	padding-left: 20px;
+	overflow: auto;
+	height: 388px;
+}
+
+div.similarArtists {
+	background-color: #12213b;
+	width: 400px;
+	display: block;
+	margin-left: 560px;
+	margin-top: 465px;
+	}
+
+div.cajaAS{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #FEAD00;
+}
+
+p.tituloAS{
+	color: #04DEA7;
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+
+/*Album*/
+div.albumData {
+	margin-left: 150px;
+	background-color: #12213b;
+	float: left;
+	width: 275px;
+	display: inline-block;
+}
+
+div.albumPhoto{
+	margin-left: 150px;
+	float: left;
+}
+
+
+/*Library*/
+div.superlibrary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.library {
+	background-color: #12213b;
+	width: 400px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*Library message*/
+div.tituloMensaje {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+a.tituloMensaje {
+	text-decoration: none;
+	color: white;
+	font-family: "fuenteRotulos";
+	font-size: 350%;
+}
+
+p.Mensaje {
+	color: #04DEA7;
+	font-size: 20px;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+}
+
+div.Mensaje {
+	background-color: #12213b;
+	width: 450px;
+	border: 5px dashed #FEAD00;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 175px;
+	text-align: center;
+}

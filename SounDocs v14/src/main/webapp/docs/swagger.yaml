@@ -1,0 +1,162 @@
+swagger: '2.0'
+info:
+  description: Valora nuestro MashUp
+  version: 1.0.0
+  title: ValorAPI
+  # put the contact info for your development or API team
+  contact:
+    email: algeto96@gmail.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+schemes: 
+- http
+host: projaiss.appspot.com
+basePath: /api
+
+# tags are used for organizing operations
+tags:
+- name: valoraciones
+  description: Valoraciones
+
+paths:
+  /valoraciones:
+    get:
+      tags:
+      - valoraciones
+      summary: Get valoraciones
+      operationId: getValoraciones
+      description: get all valoraciones
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: order
+        description: Order results by puntuacion
+        required: false
+        type: string
+        enum:
+        - +puntuacion
+        - -puntuacion
+      - in: query
+        name: q
+        description: query to filter
+        type: string
+        required: false
+      responses:
+        200:
+          description: Search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Valoracion'
+        400:
+          description: Bad request
+    post:
+      tags:
+      - valoraciones
+      summary: Create a valoracion
+      operationId: createValoracion
+      description: Create a valoracion
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: valoracion
+        description: Valoracion to create
+        required: true
+        schema:
+          $ref: '#/definitions/Valoracion'
+      responses:
+        201:
+          description: Valoracion created
+          schema:
+            $ref: '#/definitions/Valoracion'
+        400:
+          description: Bad request
+    put:
+      tags:
+      - valoraciones
+      summary: Update a valoracion
+      operationId: updateValoracion
+      description: Update a valoracion
+      consumes:
+      - application/json
+      parameters:
+      - in: body
+        name: valoracion
+        description: Valoracion to update
+        required: true
+        schema:
+          $ref: '#/definitions/Valoracion'
+      responses:
+        204:
+          description: Valoracion updated
+        400:
+          description: Bad request
+        404:
+          description: Valoracion not found
+  /valoraciones/{id}:
+    get:
+      tags:
+      - valoraciones
+      summary: Get one valoracion
+      operationId: getValoracion
+      description: Get one valoracion
+      produces:
+      - application/json
+      parameters:
+      - in: path
+        name: id
+        description: Id of the valoracion
+        required: true
+        type: string
+      responses:
+        200:
+          description: Valoracion matching id
+          schema:
+            $ref: '#/definitions/Valoracion'
+        404:
+          description: Valoracion not found
+    delete:
+      tags:
+      - valoraciones
+      summary: Delete valoracion
+      operationId: deleteValoracion
+      description: Delete valoracion
+      parameters:
+      - in: path
+        name: id
+        description: Id of the valoracion
+        required: true
+        type: string
+      responses:
+        204:
+          description: Valoracion deleted
+        404:
+          description: Valoracion not found
+definitions:
+  Valoracion:
+    type: object
+    required:
+    - nombre
+    - puntuacion
+    - comentario
+    properties:
+      id:
+        type: string
+      nombre:
+        type: string
+      puntuacion:
+        type: string
+      comentario:
+        type: string
+    example: 
+      id: v1
+      nombre: Eustaquio Ramirez
+      puntuacion: "9"
+      comentario: Funciona bien, me gusta
